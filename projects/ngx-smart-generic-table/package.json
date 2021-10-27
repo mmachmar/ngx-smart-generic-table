@@ -1,10 +1,25 @@
 {
   "name": "ngx-smart-generic-table",
-  "version": "0.0.1",
-  "peerDependencies": {
-    "@angular/common": "^8.2.14",
-    "@angular/core": "^8.2.14"
+  "version": "1.0.0",
+  "description": "A simple generic table to be used with Angular 8 allowing to the user create dynamically tables using their own table settings config",
+  "author": "Pablo Contreras <pablocp.ing@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parodCL/ng8-smart-generic-table.git"
   },
+  "bugs": {
+    "url": "https://github.com/parodCL/ng8-smart-generic-table.git"
+  },
+  "homepage": "https://github.com/parodCL/ng8-smart-generic-table",
+  "keywords": [
+    "angular",
+    "javascript",
+    "typescript",
+    "smart-table",
+    "table",
+    "dynamic-table",
+    "generic-table"
+  ],
   "dependencies": {
     "tslib": "^1.10.0"
   }

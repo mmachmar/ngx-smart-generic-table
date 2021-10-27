@@ -2,7 +2,7 @@ import {AfterViewChecked, ChangeDetectorRef, Component} from '@angular/core';
 import {Product, PRODUCTTABLESETTINGS} from './model/product';
 import {TranslateService} from '@ngx-translate/core';
 import {LanguageService} from './language.service';
-import {TablePagination} from 'projects/ngx-smart-generic-table/src/lib/model/table-pagination';
+import {TablePagination} from 'ngx-smart-generic-table';
 
 @Component({
   selector: 'app-root',

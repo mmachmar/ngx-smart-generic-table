@@ -6,7 +6,7 @@ import {TranslateModule} from '@ngx-translate/core';
 import {NgSelectModule} from '@ng-select/ng-select';
 import {NgbDropdownModule, NgbModule, NgbTooltipModule} from '@ng-bootstrap/ng-bootstrap';
 import {LanguageService} from './language.service';
-import {NgxSmartGenericTableModule} from '../../projects/ngx-smart-generic-table/src/lib/ngx-smart-generic-table.module';
+import {NgxSmartGenericTableModule} from 'ngx-smart-generic-table';
 
 @NgModule({
   declarations: [

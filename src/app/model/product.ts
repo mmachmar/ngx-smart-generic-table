@@ -1,7 +1,5 @@
-import {TableColumnSettings} from '../../../projects/ngx-smart-generic-table/src/lib/model/table-column-settings';
-import {TemplateNames} from '../../../projects/ngx-smart-generic-table/src/lib/enum/template-names.enum';
-import {AlignType} from '../../../projects/ngx-smart-generic-table/src/lib/enum/align-type.enum';
-import {ButtonType} from '../../../projects/ngx-smart-generic-table/src/lib/enum/button-type.enum';
+import {AlignType, ButtonType, TableColumnSettings, TemplateNames} from 'ngx-smart-generic-table';
+
 
 export interface Product {
   id: number;
