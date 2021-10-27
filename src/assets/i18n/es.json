@@ -1,0 +1,49 @@
+{
+  "SHARED":{
+    "ENABLED": "Habilitado",
+    "DISABLED": "Deshabilitado",
+    "TABLE": {
+      "SHOW": "Mostrar",
+      "ENTRIES": "entradas",
+      "SEARCH": "Buscar",
+      "SHOWING": "Mostrando",
+      "TO": "a",
+      "OF": "de",
+      "GO": "Ir a página",
+      "HREF": "Ir a",
+      "ACTIONS": "Acciones",
+      "STATUS": "Estado",
+      "FILTERS": "Filtros",
+      "NORECORDS": "No hay registros disponibles para mostrar",
+      "NOAPPLY": "No aplica"
+    }
+  },
+  "MODEL": {
+    "PRODUCT": {
+      "ID": "Id",
+      "NAME": "Nombre",
+      "CODE": "Código Proveedor",
+      "BARCODE": "Código de barras",
+      "PRICE": "Precio",
+      "AREA": "Área",
+      "PROVIDER": "Proveedor",
+      "BRAND": "Marca",
+      "TYPE": "Tipo de Producto",
+      "TYPE2": "Tipo",
+      "UNIT": "Unidad de Medida",
+      "DETAIL": "Detalle Producto",
+      "ENABLE": "Habilitar Producto",
+      "DISABLE": "Deshabilitar Producto",
+      "PLACEHOLDER": {
+        "ID": "Ingrese el identificador",
+        "NAME": "Ingrese el Nombre",
+        "CODE": "Ingrese el Código",
+        "BARCODE": "Ingrese el código de barras",
+        "PRICE": "Ingrese el Precio"
+      }
+    }
+  },
+  "ERROR": {
+    "REQUIRED": "Campo requerido"
+  }
+}
