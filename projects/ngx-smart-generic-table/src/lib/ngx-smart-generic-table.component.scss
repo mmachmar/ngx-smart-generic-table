@@ -1,0 +1,195 @@
+.font-size-10 {
+  font-size: 10px !important;
+}
+
+.font-size-11 {
+  font-size: 11px !important;
+}
+
+.font-size-12 {
+  font-size: 12px !important;
+}
+
+.font-size-13 {
+  font-size: 13px !important;
+}
+
+.font-size-14 {
+  font-size: 14px !important;
+}
+
+.font-size-15 {
+  font-size: 15px !important;
+}
+
+.font-size-16 {
+  font-size: 16px !important;
+}
+
+.font-size-17 {
+  font-size: 17px !important;
+}
+
+.font-size-18 {
+  font-size: 18px !important;
+}
+
+.font-size-20 {
+  font-size: 20px !important;
+}
+
+.font-size-22 {
+  font-size: 22px !important;
+}
+
+.font-size-24 {
+  font-size: 24px !important;
+}
+
+.w-auto {
+  width: auto !important;
+}
+
+.text-align-last {
+  text-align-last: center !important;
+}
+
+.wp-40 {
+  width: 40px !important;
+}
+
+.hp-31 {
+  height: 31px !important;
+}
+
+.font-weight-100 {
+  font-weight: 100 !important;
+}
+
+.font-weight-semibold {
+  font-weight: 600 !important;
+}
+
+@media only all and (max-width: 1365px) {
+  .table-overflow {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+
+  .paginator {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .col-pagination {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+  }
+}
+
+.pagination-rounded {
+  .page-link {
+    border-radius: 30px !important;
+    margin: 0 3px !important;
+    border: none;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    text-align: center;
+    line-height: 32px;
+  }
+}
+
+.btn-size-30 {
+  height: 30px !important;
+  width: 30px !important;
+  margin: 0 1px !important;
+}
+
+@media only screen and (min-width: 1150px) {
+  .paginator {
+    float: right !important;
+  }
+}
+
+@media only screen and (max-width: 1149px) {
+  .paginator {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .col-pagination {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .hide-element {
+    display: none !important;
+  }
+}
+
+.btn-secondary {
+  color: #fff !important;
+  background-color: #556ee6 !important;
+  border-color: #556ee6 !important;
+  width: 139px !important;
+}
+
+.btn-secondary:hover {
+  color: #fff !important;
+  background-color: #4054af !important;
+  border-color: #4054af !important;
+  width: 139px !important;
+}
+
+.btn-success {
+  color: #fff !important;
+  background-color: #34c38f !important;
+  border-color: #34c38f !important;
+}
+
+.btn-success:hover {
+  color: #fff !important;
+  background-color: #2ba478 !important;
+  border-color: #2ba478 !important;
+}
+
+.btn-warning {
+  color: #fff !important;
+  background-color: #f1b44c !important;
+  border-color: #f1b44c !important;
+}
+
+.btn-warning:hover {
+  color: #fff !important;
+  background-color: #b7852d !important;
+  border-color: #b7852d !important;
+}
+
+.btn-danger {
+  color: #fff !important;
+  background-color: #f46a6a !important;
+  border-color: #f46a6a !important;
+}
+
+.btn-danger:hover {
+  color: #fff !important;
+  background-color: #bd3b3b !important;
+  border-color: #bd3b3b !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}

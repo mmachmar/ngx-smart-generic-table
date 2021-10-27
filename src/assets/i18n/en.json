@@ -1,0 +1,35 @@
+{
+  "SHARED":{
+    "ENABLED": "Enabled",
+    "DISABLED": "Disabled",
+    "TABLE": {
+      "SHOW": "Show",
+      "ENTRIES": "entries",
+      "SEARCH": "Search",
+      "ANOTHER": "Other",
+      "SHOWING": "Showing",
+      "GO": "Go to page",
+      "CURRENT": "Current Page",
+      "ACTIONS": "Actions",
+      "TO": "to",
+      "OF": "of",
+      "HREF": "Go to",
+      "STATUS": "Status",
+      "FILTERS": "Filters",
+      "NORECORDS": "No records registered to show",
+      "NOAPPLY": "No Apply"
+    }
+  },
+  "MODEL": {
+    "PRODUCT": {
+      "ID": "Id",
+      "NAME": "Name",
+      "BARCODE": "Barcode",
+      "CODE": "Supplier Code",
+      "PRICE": "Price",
+      "DETAIL": "Product Detail",
+      "ENABLE": "Enable Product",
+      "DISABLE": "Disable Product"
+    }
+  }
+}

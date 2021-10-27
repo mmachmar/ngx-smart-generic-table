@@ -1,0 +1,23 @@
+<div class="dropdown d-inline-block" ngbDropdown>
+  <button class="btn header-item  d-none d-xl-inline-block" id="page-header-flag-dropdown" ngbDropdownToggle type="button">
+    <span class="ms-1">Idioma</span>
+  </button>
+  <div class="dropdown-menu" ngbDropdownMenu>
+    <!-- item-->
+    <a (click)="setLanguage(item.text, item.lang)" *ngFor="let item of listLang"
+       [ngClass]="{'active': cookieValue === item.lang}"
+       class="dropdown-item notify-item" href="javascript:void(0);">
+      <img alt="user-image" class="me-1" height="12" src="{{item.flag}}"> <span
+      class="align-middle">{{item.text | translate}}</span>
+    </a>
+    <!-- item-->
+  </div>
+</div>
+<ngx-smart-generic-table [tableSettings]="settings"
+          [tablePagination]="tablePagination"
+          [pageSize]="pageSize"
+          (setPageEmitter)="setPage($event)"
+          (setPageSizeEmitter)="setPageSize($event)"
+          [hasPagination]="true"
+          (functionEmitter)="setFunction($event)"
+          (buttonClickEmitter)="onButtonClickedEmitter($event)"></ngx-smart-generic-table>

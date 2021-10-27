@@ -1,0 +1,73 @@
+//
+// _table.scss
+//
+
+.table {
+  th {
+    font-weight: $font-weight-bold;
+    background-color: #49c5b6;
+    color: $body-color;
+  }
+
+  .table-light {
+    color: $body-color;
+    border-color: $table-border-color;
+    background-color: $table-head-bg;
+  }
+}
+
+.table-bordered {
+  border: $table-border-width solid $table-border-color;
+
+  th,
+  td {
+    border: $table-border-width solid $table-border-color;
+  }
+}
+
+
+.table-dark > :not(:last-child) > :last-child > * {
+  border-bottom-color: $table-dark-border-color;
+}
+
+.table-nowrap {
+  th, td {
+    white-space: nowrap;
+  }
+}
+@keyframes moving-gradient {
+  0% { background-position: -250px 0; }
+  100% { background-position: 250px 0; }
+}
+
+.table-loader {
+  width: 100%;
+  margin-bottom: 1rem;
+  th {
+    font-weight: $font-weight-bold;
+    background-color: #49c5b6;
+    color: white;
+  }
+  tr {
+    td {
+      vertical-align: middle;
+      padding: 12px;
+      span {
+        display: block;
+      }
+      &.td-loader {
+        span {
+          height: 15px;
+          border-radius: 0.25rem;
+          background: linear-gradient(to right, #85c7be 20%, #1eac99 50%, #85c7be 80%);
+          background-size: 500px 100px;
+          animation: moving-gradient 1s ease infinite;
+        }
+      }
+    }
+  }
+}
+
+.p-product-detail {
+  padding: 5px 10px 5px 10px !important;
+}
