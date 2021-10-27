@@ -10,7 +10,7 @@ Generic Table to use in Angular Apps. Provides a generic structure to define tab
 
 | ngx-smart-generic-table  | @angular/cli       | Node    |
 | :-----------------------:| :-----------------:|:-------: |
-|          1.0.0           | 8.3.29             | 14.17.4 |
+|          1.0.3          | 8.3.29             | 14.17.4 |
 
 ## Installation
 
