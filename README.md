@@ -1,16 +1,17 @@
 # Ngx Smart Generic Table
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pablocping/)
-[![GitLab](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/pabloCL)
-[![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://gitlab.com/pabloCL)
-[![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://gitlab.com/pabloCL)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/parodCL)
+[![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)]()
+[![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)]()
 
 Generic Table to use in Angular Apps. Provides a generic structure to define table settings: data, width, translation, pagination, using the following libraries
 
 
-| ngx-smart-generic-table  | @angular/cli       | Node    |
+| ngx-smart-generic-table  | @angular/cli       | Node     |
 | :-----------------------:| :-----------------:|:-------: |
-|          1.0.3          | 8.3.29             | 14.17.4 |
+|          1.x.x           | 8.3.29             | 14.17.4  |
+|          2.x.x           | 9.1.15             | 14.17.4  |
 
 ## Installation
 
@@ -31,16 +32,16 @@ Generic Table to use in Angular Apps. Provides a generic structure to define tab
 
 ```typescript
   imports: [
-    .....  
-    TranslateModule,
-    NgxSmartGenericTableModule,
-    NgbModule,
-    NgSelectModule,
-    NgbDropdownModule,
-    NgbTooltipModule
-    .....  
+  .....
+  TranslateModule,
+  NgxSmartGenericTableModule,
+  NgbModule,
+  NgSelectModule,
+  NgbDropdownModule,
+  NgbTooltipModule
+  .....
 ],
-  providers: [LanguageService]
+providers: [LanguageService]
 ```
 
 Interfaces, Classes and Enums:
@@ -115,8 +116,6 @@ export enum ButtonType {
 
 Product Table Settings Example:
 ```typescript
-
-
 export const PRODUCTTABLESETTINGS: TableColumnSettings[] = [
   {
     key: ProductsTableColumnKey.Code,
