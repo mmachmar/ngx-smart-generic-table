@@ -13,6 +13,7 @@ Generic Table to use in Angular Apps. Provides a generic structure to define tab
 |          1.x.x           | 8.3.29             | 14.17.4  |
 |          2.x.x           | 9.1.15             | 14.17.4  |
 |          3.x.x           | 10.2.4             | 14.17.4  |
+|          4.x.x           | 11.2.14            | 14.17.4  |
 
 ## Installation
 
