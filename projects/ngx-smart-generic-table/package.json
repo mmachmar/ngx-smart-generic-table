@@ -1,6 +1,6 @@
 {
   "name": "ngx-smart-generic-table",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A simple generic table to be used with Angular 8 allowing to the user create dynamically tables using your own table settings config",
   "author": "Pablo Contreras <pablocp.ing@gmail.com>",
   "repository": {
@@ -22,11 +22,11 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "@angular/common": "^9.1.13",
-    "@angular/core": "^9.1.13",
-    "@angular/localize": "^9.1.13"
+    "@angular/common": "^10.2.4",
+    "@angular/core": "^10.2.4",
+    "@angular/localize": "^10.2.4"
   },
   "dependencies": {
-    "tslib": "^1.10.0"
+    "tslib": "^2.0.0"
   }
 }

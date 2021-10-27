@@ -134,7 +134,7 @@
       "prefix": "NgxSmart",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/ngx-smart-generic-table/tsconfig.lib.json",
             "project": "projects/ngx-smart-generic-table/ng-package.json"

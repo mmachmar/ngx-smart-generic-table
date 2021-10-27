@@ -12,6 +12,7 @@ Generic Table to use in Angular Apps. Provides a generic structure to define tab
 | :-----------------------:| :-----------------:|:-------: |
 |          1.x.x           | 8.3.29             | 14.17.4  |
 |          2.x.x           | 9.1.15             | 14.17.4  |
+|          3.x.x           | 10.2.4             | 14.17.4  |
 
 ## Installation
 
@@ -20,12 +21,12 @@ Generic Table to use in Angular Apps. Provides a generic structure to define tab
 ### Add the following dependencies to your application package.json
 
 ````json
-    "@angular/localize": "~9.1.13",
+    "@angular/localize": "~10.2.4",
+    "@ng-bootstrap/ng-bootstrap": "^8.0.4",
+    "@ng-select/ng-select": "^5.1.0",
+    "@ngx-translate/core": "^13.0.0",
+    "@ngx-translate/http-loader": "~6.0.0",
     "bootstrap": "^5.0.2",
-    "@ng-bootstrap/ng-bootstrap": "^6.2.0",
-    "@ng-select/ng-select": "^4.0.4",
-    "@ngx-translate/core": "^12.1.2",
-    "@ngx-translate/http-loader": "~5.0.0",
 ````
 ## Usage
 
