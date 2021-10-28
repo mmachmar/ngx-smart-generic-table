@@ -8,18 +8,19 @@
 Generic Table to use in Angular Apps. Provides a generic structure to define table settings: data, width, translation, pagination, using the following libraries
 
 
-| ngx-smart-generic-table  | @angular/cli       | Node     |
-| :-----------------------:| :-----------------:|:-------: |
-|          1.x.x           | 8.3.29             | 14.17.4  |
-|          2.x.x           | 9.1.15             | 14.17.4  |
-|          3.x.x           | 10.2.4             | 14.17.4  |
+| ngx-smart-generic-table                                                                   | @angular/cli       | Node     |
+| :---------------------------------------------------------------------------------------: | :-----------------:|:-------: |
+|          [1.x.x](https://www.npmjs.com/package/ngx-smart-generic-table/v/1.0.8)           | 8.3.29             | 14.17.4  |
+|          [2.x.x](https://www.npmjs.com/package/ngx-smart-generic-table/v/2.0.2)           | 9.1.15             | 14.17.4  |
+|          [3.x.x](https://www.npmjs.com/package/ngx-smart-generic-table/v/3.0.1)           | 10.2.4             | 14.17.4  |
+|          [4.x.x](https://www.npmjs.com/package/ngx-smart-generic-table/v/4.0.0)           | 11.2.14            | 14.17.4  |
+|          [5.x.x](https://www.npmjs.com/package/ngx-smart-generic-table/v/5.0.0)           | 12.2.12            | 14.17.4  |
 
 ## Installation
 
 `$ npm install ngx-smart-generic-table --save`
 
-### Add the following dependencies to your application package.json
-
+### Add the dependencies according to the library version. For v3.0.1 version use the following in your package.json:
 
 ````json
     "@angular/localize": "~10.2.4",
