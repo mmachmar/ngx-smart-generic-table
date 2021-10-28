@@ -1,4 +1,4 @@
-## SmartGenericTable - v1.0.7(10/28/2021)
+## SmartGenericTable - v1.0.8(10/28/2021)
 
 ### New Features:
 
