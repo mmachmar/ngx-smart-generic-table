@@ -8,16 +8,19 @@
 Generic Table to use in Angular Apps. Provides a generic structure to define table settings: data, width, translation, pagination, using the following libraries
 
 
-| ngx-smart-generic-table  | @angular/cli       | Node     |
-| :-----------------------:| :-----------------:|:-------: |
-|          1.x.x           | 8.3.29             | 14.17.4  |
-|          2.x.x           | 9.1.15             | 14.17.4  |
+| ngx-smart-generic-table                                                                   | @angular/cli       | Node     |
+| :---------------------------------------------------------------------------------------: | :-----------------:|:-------: |
+|          [1.x.x](https://www.npmjs.com/package/ngx-smart-generic-table/v/1.0.6)           | 8.3.29             | 14.17.4  |
+|          [2.x.x](https://www.npmjs.com/package/ngx-smart-generic-table/v/2.0.0)           | 9.1.15             | 14.17.4  |
+|          [3.x.x](https://www.npmjs.com/package/ngx-smart-generic-table/v/3.0.0)           | 10.2.4             | 14.17.4  |
+|          [4.x.x](https://www.npmjs.com/package/ngx-smart-generic-table/v/4.0.0)           | 11.2.14            | 14.17.4  |
+|          [5.x.x](https://www.npmjs.com/package/ngx-smart-generic-table/v/5.0.0)           | 12.2.12            | 14.17.4  |
 
 ## Installation
 
 `$ npm install ngx-smart-generic-table --save`
 
-### Add the following dependencies to your application package.json
+### Add the dependencies according to the library version. For v1.0.6 version use the following in your package.json:
 
 ````json
     "bootstrap": "^5.0.2",
@@ -32,16 +35,16 @@ Generic Table to use in Angular Apps. Provides a generic structure to define tab
 
 ```typescript
   imports: [
-  .....
-  TranslateModule,
-  NgxSmartGenericTableModule,
-  NgbModule,
-  NgSelectModule,
-  NgbDropdownModule,
-  NgbTooltipModule
-  .....
+    .....  
+    TranslateModule,
+    NgxSmartGenericTableModule,
+    NgbModule,
+    NgSelectModule,
+    NgbDropdownModule,
+    NgbTooltipModule
+    .....  
 ],
-providers: [LanguageService]
+  providers: [LanguageService]
 ```
 
 Interfaces, Classes and Enums:
@@ -116,6 +119,8 @@ export enum ButtonType {
 
 Product Table Settings Example:
 ```typescript
+
+
 export const PRODUCTTABLESETTINGS: TableColumnSettings[] = [
   {
     key: ProductsTableColumnKey.Code,
