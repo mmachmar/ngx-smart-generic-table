@@ -20,7 +20,7 @@ Generic Table to use in Angular Apps. Provides a generic structure to define tab
 
 `$ npm install ngx-smart-generic-table --save`
 
-### Add the dependencies according to the library version. For v1.0.6 version use the following in your package.json:
+### Add the dependencies according to the library version. For v1.0.7 version use the following in your package.json:
 
 ````json
     "bootstrap": "^5.0.2",
