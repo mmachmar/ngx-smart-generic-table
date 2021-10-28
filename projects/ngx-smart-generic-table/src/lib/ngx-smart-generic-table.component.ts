@@ -5,7 +5,7 @@ import {TableColumnSettings} from './model/table-column-settings';
 @Component({
   selector: 'ngx-smart-generic-table',
   template: `
-    <div class="row mb-2">
+    <div class="row mb-2" *ngIf="hasPageSize || hasPageSearch">
       <div class="col-md-12 col-sm-12">
         <div class="align-middle">
           <label *ngIf="hasPageSize"
