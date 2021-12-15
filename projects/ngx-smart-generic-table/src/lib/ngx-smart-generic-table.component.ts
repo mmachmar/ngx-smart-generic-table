@@ -188,12 +188,12 @@ export class NgxSmartGenericTableComponent implements OnInit {
     switch (b.type) {
       case 'swal':
         if (status) {
-          return b.enable.tooltip;
+          return b.enable.tooltip+'X';
         } else {
-          return b.disable.tooltip;
+          return b.disable.tooltip+'X';
         }
       default:
-        return b.tooltip;
+        return b.tooltip+'X';
     }
   }
 
